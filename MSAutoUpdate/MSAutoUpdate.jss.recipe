@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Identifier</key>
-	<string>local.uo.jss.MSAutoUpdate</string>
+	<string>local.jss.MSAutoUpdate</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -12,8 +12,6 @@
 		<string>AutoPkg: %NAME%</string>
 		<key>GROUP_TEMPLATE</key>
 		<string>CFBundleVersionSmartGroupTemplate.xml</string>
-		<key>NAME</key>
-		<string>Google Earth</string>
 		<key>POLICY_CATEGORY</key>
 		<string>Testing</string>
 		<key>POLICY_TEMPLATE</key>
