@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
     <key>Description</key>
-    <string>Downloads EMC Syncplicity disk image and builds a package. The installer package includes a preinstall script that will check for an existing "Syncplicity.app" in /Applications and remove it if found. The install package also includes a postinstall script that copies first run files into place to prevent Admin prompting, and disables automatic updates and checks. Adapted from rtrouton's Firefox pkg recipe.</string>
+    <string>Downloads EMC Syncplicity disk image and builds a package.</string>
     <key>Identifier</key>
-    <string>uo.pkg.EMCSyncplicity</string>
+    <string>local.pkg.EMCSyncplicity</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
@@ -19,11 +19,15 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>PkgCopier</string>
+            <string>Copier</string>
             <key>Arguments</key>
             <dict>
-                <key>source_pkg</key>
+                <key>source_path</key>
                 <string>%pathname%/Syncplicity-*.pkg</string>
+                <key>destination_path</key>
+                <string>%RECIPE_CACHE_DIR%/package</string>
+                <key>overwrite</key>
+                </false>
             </dict>
         </dict>
     </array>
