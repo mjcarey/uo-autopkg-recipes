@@ -27,7 +27,7 @@
                 <key>destination_path</key>
                 <string>%RECIPE_CACHE_DIR%/package</string>
                 <key>overwrite</key>
-                </false>
+                </true>
             </dict>
         </dict>
     </array>
