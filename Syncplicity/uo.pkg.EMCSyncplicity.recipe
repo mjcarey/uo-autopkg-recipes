@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Description</key>
+    <string>Downloads EMC Syncplicity disk image and builds a package. The installer package includes a preinstall script that will check for an existing "Syncplicity.app" in /Applications and remove it if found. The install package also includes a postinstall script that copies first run files into place to prevent Admin prompting, and disables automatic updates and checks. Adapted from rtrouton's Firefox pkg recipe.</string>
+    <key>Identifier</key>
+    <string>uo.pkg.EMCSyncplicity</string>
+    <key>Input</key>
+    <dict>
+        <key>NAME</key>
+        <string>EMCSyncplicity</string>
+    </dict>
+    <key>MinimumVersion</key>
+    <string>0.2.0</string>
+    <key>ParentRecipe</key>
+    <string>com.github.autopkg.kernsb.download.EMCSyncplicity</string>
+    <key>Process</key>
+    <array>
+        <dict>
+            <key>Processor</key>
+            <string>PkgCopier</string>
+            <key>Arguments</key>
+            <dict>
+                <key>source_pkg</key>
+                <string>%pathname%/Syncplicity-*.pkg</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
