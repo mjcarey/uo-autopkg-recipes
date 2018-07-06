@@ -19,15 +19,15 @@
     <array>
         <dict>
             <key>Processor</key>
-            <string>Copier</string>
+            <string>FlatPkgUnpacker</string>
             <key>Arguments</key>
             <dict>
-                <key>source_path</key>
+                <key>flat_pkg_path</key>
                 <string>%pathname%/Syncplicity-*.pkg</string>
                 <key>destination_path</key>
-                <string>%RECIPE_CACHE_DIR%/package</string>
-                <key>overwrite</key>
-                <false/>
+                <string>%RECIPE_CACHE_DIR%/unpack</string>
+                <key>purge_destination</key>
+                <true/>
             </dict>
         </dict>
     </array>
