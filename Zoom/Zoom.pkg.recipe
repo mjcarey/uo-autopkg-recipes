@@ -47,7 +47,7 @@
 			<key>Arguments</key>
 			<dict>
 				<key>input_plist_path</key>
-				<string>%RECIPE_CACHE_DIR%/unpack/payload/Applications/zoom.us.app/Contents/Info.plist</string>
+				<string>%RECIPE_CACHE_DIR%/unpack/payload/Contents/Info.plist</string>
 				<key>plist_version_key</key>
 				<string>CFBundleVersion</string>
 			</dict>
