@@ -5,7 +5,7 @@
 	<key>Description</key>
 	<string>Downloads latest VLC disk image, and builds a package, and uploads to the JSS.</string>
 	<key>Identifier</key>
-	<string>com.github.mjcarey.jss.VLC</string>
+	<string>com.github.mjcarey.jss.VLC-arm64</string>
 	<key>Input</key>
 	<dict>
 		<key>CATEGORY</key>
@@ -30,7 +30,7 @@
 	<key>MinimumVersion</key>
 	<string>0.4.0</string>
 	<key>ParentRecipe</key>
-	<string>com.github.mjcarey.pkg.VLC</string>
+	<string>com.github.mjcarey.pkg.VLC-arm64</string>
 	<key>Process</key>
 	<array>
 		<dict>
