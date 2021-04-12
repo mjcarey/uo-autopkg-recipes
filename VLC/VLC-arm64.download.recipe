@@ -10,8 +10,10 @@
     <dict>
         <key>NAME</key>
         <string>VLC</string>
+        <key>ARCH</key>
+        <string>arm64</key>
         <key>SPARKLE_URL</key>
-        <string>https://update.videolan.org/vlc/sparkle/vlc-arm64.xml</string>
+        <string>https://update.videolan.org/vlc/sparkle/vlc-%ARCH%.xml</string>
     </dict>
     <key>MinimumVersion</key>
     <string>0.4.0</string>
