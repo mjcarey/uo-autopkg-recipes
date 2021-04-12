@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Downloads latest VLC disk image.</string>
     <key>Identifier</key>
-    <string>com.github.mjcarey.download.VLC</string>
+    <string>com.github.mjcarey.download.VLC-arm64</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>
