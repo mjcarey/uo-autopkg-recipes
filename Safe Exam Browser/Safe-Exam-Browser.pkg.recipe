@@ -24,6 +24,15 @@
         </dict>
         <dict>
             <key>Processor</key>
+            <string>StopProcessingIf</string>
+            <key>Arguments</key>
+            <dict>
+                <key>predicate</key>
+                <string>new_package_request == FALSE</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>Processor</key>
             <string>PathDeleter</string>
             <key>Arguments</key>
             <dict>
