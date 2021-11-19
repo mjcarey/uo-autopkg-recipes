@@ -8,9 +8,9 @@
 		<script>#!/bin/bash
 CFBundleVersion=""
 
-if [ -f /"%BUNDLE_PATH%"/Contents/Info.plist ]
+if [ -f "%BUNDLE_PATH%/Contents/Info.plist" ]
 	then
-		CFBundleVersion=$(defaults read /"%BUNDLE_PATH%"/Contents/Info.plist CFBundleVersion)
+		CFBundleVersion=$(defaults read "%BUNDLE_PATH%/Contents/Info.plist" CFBundleVersion)
 fi
 
 echo "&lt;result&gt;$CFBundleVersion&lt;/result&gt;"
