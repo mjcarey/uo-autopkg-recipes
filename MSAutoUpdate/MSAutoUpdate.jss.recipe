@@ -20,6 +20,8 @@
 		<string>Microsoft AutoUpdate</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>MSAutoUpdate.png</string>
+		<key>BUNDLE_PATH</key>
+		<string>/Library/Application Support/Microsoft/MAU2.0/Microsoft AutoUpdate.app</string>
 	</dict>
 	<key>ParentRecipe</key>
 	<string>com.github.autopkg.download.MSAutoUpdate</string>
@@ -61,7 +63,7 @@
 				<array>
 					<dict>
 						<key>ext_attribute_path</key>
-						<string>CFBundleVersionExtensionAttribute.xml</string>
+						<string>CFBundleVersionPathExtensionAttribute.xml</string>
 					</dict>
 				</array>
 				<key>groups</key>
