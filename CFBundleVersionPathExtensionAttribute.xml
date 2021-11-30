@@ -1,11 +1,11 @@
 <computer_extension_attribute>
-	<name>%NAME%Version</name>
+	<name>%NAME% Version</name>
 	<description />
 	<data_type>String</data_type>
 	<input_type>
 		<type>script</type>
 		<platform>Mac</platform>
-		<script>#!/bin/bash
+		<script>#!/bin/sh
 CFBundleVersion=""
 
 if [ -f "%BUNDLE_PATH%/Contents/Info.plist" ]
