@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>Description</key>
-	<string>Downloads the latest version of Zotero and creates a package, then uploads to the JSS.</string>
+	<string>Downloads the latest version of OpenShot Video Editor and creates a package, then uploads to the JSS.</string>
 	<key>Identifier</key>
 	<string>com.github.mjcarey.jss.OpenShot</string>
 	<key>Input</key>
