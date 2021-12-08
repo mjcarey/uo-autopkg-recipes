@@ -24,6 +24,8 @@
 		<string>OpenShot Video Editor is an award-winning free and open-source video editor for Linux, Mac, and Windows, and is dedicated to delivering high quality video editing and animation solutions to the world.</string>
 		<key>SELF_SERVICE_ICON</key>
 		<string>OpenShot.png</string>
+		<key>JSS_INVENTORY_NAME</key>
+		<string>OpenShot Video Editor</string>
 	</dict>
 	<key>MinimumVersion</key>
 	<string>0.2.0</string>
